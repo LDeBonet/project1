@@ -1,0 +1,27 @@
+body
+{
+    text-align: center;
+    /*word-wrap:break-word;*/
+    /*font-family: "Times New Roman", Times, serif; */
+}
+
+header
+{
+    font-size: large;
+}
+
+footer
+{
+    font-size: small;
+}
+
+main
+{
+    font-size: 30px;
+}
+
+img
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}

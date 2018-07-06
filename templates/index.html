@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+
+	{% block head %} <title> Googol.com </title> {% endblock %}
+
+	{% block body %}
+		<br><br>
+		<h1>Welcome to Googol!</h1>
+		<header><i>The <b>"Greatest"</b> Search Engine since 8991&trade;</i></header>
+		<br>
+		<form action = "https://www.google.com/search?" method = "get">
+			<input name = "q" placeholder = "Lots of Zeroes" type = "text">
+			<br>
+			<input type = "submit" value = "Googol Search">
+			<input type = "submit" value = "Not Feeling Lucky">
+		</form>
+	<br>
+	<a href = "404.html"><s>Stanford</s> Harvard Search </a>  | <a href = "404.html"> Linux Search </a>
+	<br>
+	<main> <a href = "about.html"> What is "Googol"? </a> </main>
+	<br>
+	{% endblock %} <!--Body-->
