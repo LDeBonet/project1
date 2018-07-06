@@ -14,3 +14,6 @@ def func(var):
         return render_template(var)
     else:
         return render_template("404.html")
+
+print("This is the newbranch version of the application.py!")
+print("I wonder what'll happen when we merge?")
